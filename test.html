@@ -9,13 +9,14 @@ bella the foosh is super smart but retarted and thinks she is a furry
 	function replace(){
 		var all = document.getElementsByTagName("*");
 		console.log(all);
-		for (var i=3, max=all.length; i < max; i++) {
+		for (var i=0, max=all.length; i < max; i++) {
 			a = all[i];
-		    a.innerHTML = a.innerHTML.replace(/r/g, 'w');
-			a.innerHTML = a.innerHTML.replace(/u/g, 'uwu');
-			a.innerHTML = a.innerHTML.replace(/o/g, 'owo');
-			a.innerHTML = a.innerHTML.replace(/rr/g, 'ww');
-			a.innerHTML = a.innerHTML.replace(/ll/g, 'ww');
+			a.innerText = a.innerText.replace(/r/g, 'w');
+			a.innerText = a.innerText.replace(/l/g, 'w');
+			a.innerText = a.innerText.replace(/rr/g, 'ww');
+			a.innerText = a.innerText.replace(/ll/g, 'ww');
+			a.innerText = a.innerText.replace(/u/g, 'uwu');
+			a.innerText = a.innerText.replace(/o/g, 'owo');
 		}	
 	}
 </script>
